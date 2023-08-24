@@ -1,0 +1,23 @@
+[33mcommit b8591ab3c586da1655f66d9415c6a652c17c8c8b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: troissaint <simondetrois@gmail.com>
+Date:   Sat Feb 18 13:35:41 2023 +0100
+
+    added interfaces for storing data
+
+[33mcommit 9c0ce16f350f5b9731bf775e5c53097f3895fe1a[m
+Author: troissaint <simondetrois@gmail.com>
+Date:   Sat Feb 18 13:16:40 2023 +0100
+
+    added basic navigation
+
+[33mcommit 09073326fdd94f0d83ff670e0d8a48e540f172f4[m
+Author: troissaint <simondetrois@gmail.com>
+Date:   Sat Feb 18 11:44:05 2023 +0100
+
+    first commit
+
+[33mcommit bdc1bc34af55e50aada501a296ec46ffc3781abe[m
+Author: troissaint <simondetrois@gmail.com>
+Date:   Sat Feb 18 11:26:54 2023 +0100
+
+    Initialize project using Create React App
