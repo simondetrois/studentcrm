@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: scrm_frontend
+    image: troissaint/twittify:frontend_latest
+    ports: 
+      - 3000:80
+    depends_on:
+      - backend
+
+  backend: 
+    container_name: scrm_backend
+    image: troissaint/twittify:backend_latest
+    ports: 
+      - 8080:8080
+    environment:
+      DATABASE_HOST: database
+    depends_on:
+      - database
+
+  database:
+    container_name: scrm_database
+    image: troissaint/twittify:database_latest
+    ports:
+      - 5432:5432

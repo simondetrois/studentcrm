@@ -16,7 +16,6 @@ class CourseEntity(
 
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "course_generator")
     @SequenceGenerator(name = "course_generator", sequenceName = "id_sequence_of_courses", allocationSize = 1)
-
     @Column(name = "course_id", updatable = false)
     val courseId: Long,
 
